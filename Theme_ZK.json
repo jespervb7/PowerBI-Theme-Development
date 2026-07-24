@@ -1,5 +1,5 @@
-{
-  "name": "FARAO - Zilveren Kruis",
+﻿{
+  "name": "Theme ZK",
   "dataColors": [
     "#0068BD",
     "#FECFBB",
@@ -8,7 +8,31 @@
     "#002857",
     "#6B839A",
     "#004E8C",
-    "#DCEBF3"
+    "#DCEBF3",
+    "#3599B8",
+    "#DFBFBF",
+    "#4AC5BB",
+    "#5F6B6D",
+    "#FB8281",
+    "#F4D25A",
+    "#7F898A",
+    "#A4DDEE",
+    "#FDAB89",
+    "#B687AC",
+    "#28738A",
+    "#A78F8F",
+    "#168980",
+    "#293537",
+    "#BB4A4A",
+    "#B59525",
+    "#475052",
+    "#6A9FB0",
+    "#BD7150",
+    "#7B4F71",
+    "#1B4D5C",
+    "#706060",
+    "#0F5C55",
+    "#1C2325"
   ],
   "good": "#1E8C45",
   "neutral": "#6B839A",
@@ -25,10 +49,26 @@
   "thirdLevelElements": "#D0DDE8",
   "fourthLevelElements": "#A0B8CC",
   "textClasses": {
-    "callout": { "fontFace": "Arial", "fontSize": 28, "color": "#002857" },
-    "title": { "fontFace": "Arial", "fontSize": 12, "color": "#002857" },
-    "header": { "fontFace": "Arial", "fontSize": 11, "color": "#002857" },
-    "label": { "fontFace": "Arial", "fontSize": 10, "color": "#002857" }
+    "callout": {
+      "fontFace": "Arial",
+      "fontSize": 28,
+      "color": "#002857"
+    },
+    "title": {
+      "fontFace": "Arial",
+      "fontSize": 12,
+      "color": "#002857"
+    },
+    "header": {
+      "fontFace": "Arial",
+      "fontSize": 11,
+      "color": "#002857"
+    },
+    "label": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    }
   },
   "visualStyles": {
     "*": {
@@ -36,8 +76,16 @@
         "title": [
           {
             "show": true,
-            "fontColor": { "solid": { "color": "#002857" } },
-            "background": { "solid": { "color": "#FFFFFF" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
             "alignment": "left",
             "fontSize": 12,
             "fontFamily": "Arial",
@@ -47,33 +95,55 @@
         "background": [
           {
             "show": true,
-            "color": { "solid": { "color": "#FFFFFF" } },
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
             "transparency": 0
           }
         ],
         "border": [
           {
             "show": true,
-            "color": { "solid": { "color": "#D0DDE8" } },
+            "color": {
+              "solid": {
+                "color": "#D0DDE8"
+              }
+            },
             "radius": 8
           }
         ],
         "dropShadow": [
-          { "show": false }
+          {
+            "show": false
+          }
         ],
         "legend": [
           {
             "show": true,
             "position": "Top",
-            "labelColor": { "solid": { "color": "#002857" } },
+            "labelColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 10
           }
         ],
         "categoryAxis": [
           {
-            "labelColor": { "solid": { "color": "#6B839A" } },
-            "titleColor": { "solid": { "color": "#002857" } },
+            "labelColor": {
+              "solid": {
+                "color": "#6B839A"
+              }
+            },
+            "titleColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 10,
             "gridlineShow": false
@@ -81,18 +151,34 @@
         ],
         "valueAxis": [
           {
-            "labelColor": { "solid": { "color": "#6B839A" } },
-            "titleColor": { "solid": { "color": "#002857" } },
+            "labelColor": {
+              "solid": {
+                "color": "#6B839A"
+              }
+            },
+            "titleColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 10,
             "gridlineShow": true,
-            "gridlineColor": { "solid": { "color": "#D0DDE8" } },
+            "gridlineColor": {
+              "solid": {
+                "color": "#D0DDE8"
+              }
+            },
             "gridlineStyle": "solid"
           }
         ],
         "labels": [
           {
-            "color": { "solid": { "color": "#002857" } },
+            "color": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 9
           }
@@ -102,10 +188,24 @@
     "page": {
       "*": {
         "background": [
-          { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 100 }
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 100
+          }
         ],
         "outspace": [
-          { "color": { "solid": { "color": "#F4F7FA" } }, "transparency": 0 }
+          {
+            "color": {
+              "solid": {
+                "color": "#F4F7FA"
+              }
+            },
+            "transparency": 0
+          }
         ]
       }
     },
@@ -113,7 +213,11 @@
       "*": {
         "labels": [
           {
-            "color": { "solid": { "color": "#002857" } },
+            "color": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 28,
             "bold": true
@@ -122,7 +226,11 @@
         "categoryLabels": [
           {
             "show": true,
-            "color": { "solid": { "color": "#6B839A" } },
+            "color": {
+              "solid": {
+                "color": "#6B839A"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 10
           }
@@ -132,10 +240,24 @@
     "multiRowCard": {
       "*": {
         "dataLabels": [
-          { "color": { "solid": { "color": "#002857" } }, "fontFamily": "Arial" }
+          {
+            "color": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontFamily": "Arial"
+          }
         ],
         "categoryLabels": [
-          { "color": { "solid": { "color": "#6B839A" } }, "fontFamily": "Arial" }
+          {
+            "color": {
+              "solid": {
+                "color": "#6B839A"
+              }
+            },
+            "fontFamily": "Arial"
+          }
         ]
       }
     },
@@ -143,8 +265,16 @@
       "*": {
         "columnHeaders": [
           {
-            "fontColor": { "solid": { "color": "#002857" } },
-            "backColor": { "solid": { "color": "#DCEBF3" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 11,
             "bold": true,
@@ -153,16 +283,32 @@
         ],
         "values": [
           {
-            "fontColorPrimary": { "solid": { "color": "#002857" } },
-            "fontColor": { "solid": { "color": "#002857" } },
+            "fontColorPrimary": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 11
           }
         ],
         "total": [
           {
-            "fontColor": { "solid": { "color": "#002857" } },
-            "backColor": { "solid": { "color": "#DCEBF3" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            },
             "fontFamily": "Arial",
             "bold": true
           }
@@ -171,8 +317,16 @@
           {
             "gridVertical": false,
             "gridHorizontal": true,
-            "gridHorizontalColor": { "solid": { "color": "#D0DDE8" } },
-            "outlineColor": { "solid": { "color": "#D0DDE8" } },
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#D0DDE8"
+              }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": "#D0DDE8"
+              }
+            },
             "rowPadding": 4
           }
         ]
@@ -182,8 +336,16 @@
       "*": {
         "columnHeaders": [
           {
-            "fontColor": { "solid": { "color": "#002857" } },
-            "backColor": { "solid": { "color": "#DCEBF3" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 11,
             "bold": true
@@ -191,29 +353,53 @@
         ],
         "rowHeaders": [
           {
-            "fontColor": { "solid": { "color": "#002857" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 11
           }
         ],
         "values": [
           {
-            "fontColor": { "solid": { "color": "#002857" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 11
           }
         ],
         "subTotals": [
           {
-            "fontColor": { "solid": { "color": "#002857" } },
-            "backColor": { "solid": { "color": "#DCEBF3" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            },
             "bold": true
           }
         ],
         "grand-total": [
           {
-            "fontColor": { "solid": { "color": "#FFFFFF" } },
-            "backColor": { "solid": { "color": "#002857" } },
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "bold": true
           }
         ],
@@ -221,8 +407,16 @@
           {
             "gridVertical": false,
             "gridHorizontal": true,
-            "gridHorizontalColor": { "solid": { "color": "#D0DDE8" } },
-            "outlineColor": { "solid": { "color": "#D0DDE8" } }
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#D0DDE8"
+              }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": "#D0DDE8"
+              }
+            }
           }
         ]
       }
@@ -232,7 +426,11 @@
         "header": [
           {
             "show": true,
-            "fontColor": { "solid": { "color": "#002857" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 11,
             "bold": true
@@ -240,7 +438,11 @@
         ],
         "items": [
           {
-            "fontColor": { "solid": { "color": "#002857" } },
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
             "fontFamily": "Arial",
             "fontSize": 10
           }
@@ -252,13 +454,21 @@
         "fill": [
           {
             "show": true,
-            "fillColor": { "solid": { "color": "#0068BD" } },
+            "fillColor": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            },
             "transparency": 0
           }
         ],
         "text": [
           {
-            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
             "fontFamily": "Arial",
             "bold": true
           }
