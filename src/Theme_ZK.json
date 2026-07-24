@@ -1,5 +1,6 @@
 ﻿{
   "name": "Theme ZK",
+  "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/refs/heads/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.156.json",
   "dataColors": [
     "#0068BD",
     "#FECFBB",
