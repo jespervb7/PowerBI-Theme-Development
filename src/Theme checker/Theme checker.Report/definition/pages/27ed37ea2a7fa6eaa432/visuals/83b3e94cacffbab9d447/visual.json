@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "83b3e94cacffbab9d447",
+  "position": {
+    "x": 495,
+    "y": 760,
+    "z": 8000,
+    "height": 300,
+    "width": 455,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "scorecard",
+    "visualContainerObjects": {
+      "lockAspect": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

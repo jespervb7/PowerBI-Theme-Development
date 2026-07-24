@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "fef5f7dddcdc83879713",
+  "position": {
+    "x": 950,
+    "y": 100,
+    "z": 1000,
+    "height": 640,
+    "width": 930,
+    "tabOrder": 1002
+  },
+  "visual": {
+    "visualType": "bookmarkNavigator",
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Bookmark navigator'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "aa9eeb5339097290c217",
+  "howCreated": "InsertVisualButton"
+}

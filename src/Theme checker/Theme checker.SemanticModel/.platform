@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Theme checker"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "374324d5-a400-4ffc-a3cc-0989891ecab9"
+  }
+}
