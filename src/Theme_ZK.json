@@ -42,7 +42,7 @@
   "center": "#0068BD",
   "minimum": "#DCEBF3",
   "null": "#EDF2F7",
-  "background": "#FFFFFF",
+  "background": "#F6F3F1",
   "secondaryBackground": "#DCEBF3",
   "tableAccent": "#0068BD",
   "firstLevelElements": "#002857",
@@ -56,7 +56,7 @@
       "color": "#002857"
     },
     "title": {
-      "fontFace": "Arial",
+      "fontFace": "'Arial Black'",
       "fontSize": 12,
       "color": "#002857"
     },
@@ -84,7 +84,7 @@
             },
             "background": {
               "solid": {
-                "color": "#FFFFFF"
+                "color": "#F6F3F1"
               }
             },
             "alignment": "left",
@@ -98,7 +98,7 @@
             "show": true,
             "color": {
               "solid": {
-                "color": "#FFFFFF"
+                "color": "#F6F3F1"
               }
             },
             "transparency": 0
@@ -109,7 +109,7 @@
             "show": true,
             "color": {
               "solid": {
-                "color": "#D0DDE8"
+                "color": "#DCEBF3"
               }
             },
             "radius": 8
@@ -117,7 +117,7 @@
         ],
         "dropShadow": [
           {
-            "show": false
+            "show": true
           }
         ],
         "legend": [
@@ -183,6 +183,68 @@
             "fontFamily": "Arial",
             "fontSize": 9
           }
+        ],
+        "outspacePane": [
+          {
+            "fontFamily": "Arial",
+            "headerSize": 10,
+            "inputBoxColor": {
+              "solid": {
+                "color": "#F6F3F1"
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            },
+            "width": 280
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Available",
+            "fontFamily": "Arial",
+            "foregroundColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "textSize": 10,
+            "borderColor": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            }
+          },
+          {
+            "$id": "Applied",
+            "fontFamily": "'Arial Black'",
+            "foregroundColor": {
+              "solid": {
+                "color": "#00345f"
+              }
+            },
+            "textSize": 9,
+            "backgroundColor": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 16,
+            "left": 16,
+            "bottom": 16,
+            "right": 16
+          }
         ]
       }
     },
@@ -192,7 +254,7 @@
           {
             "color": {
               "solid": {
-                "color": "#FFFFFF"
+                "color": "#F6F3F1"
               }
             },
             "transparency": 100
@@ -393,7 +455,7 @@
           {
             "fontColor": {
               "solid": {
-                "color": "#FFFFFF"
+                "color": "#002857"
               }
             },
             "backColor": {
@@ -467,7 +529,7 @@
           {
             "fontColor": {
               "solid": {
-                "color": "#FFFFFF"
+                "color": "#002857"
               }
             },
             "fontFamily": "Arial",
