@@ -492,12 +492,11 @@
             "singleSelect": true
           }
         ],
-        "stylePreset": [
+        "data": [
           {
-            "name": "dropdown"
+            "mode": "Dropdown"
           }
         ],
-        ""
         "header": [
           {
             "show": true,
@@ -520,6 +519,30 @@
             },
             "fontFamily": "Arial",
             "fontSize": 10
+          }
+        ]
+      }
+    },
+    "shape": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "shape": [
+          {
+            "tileShape": "pill"
           }
         ]
       }
