@@ -1,0 +1,25 @@
+{
+  "name": "My New Themedf",
+  "visualStyles": {
+    "slicer": {
+      "*": {
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": true
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "dropdown"
+          }
+        ],
+        "data": [
+          {
+            "mode": "Dropdown"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -486,6 +486,18 @@
     },
     "slicer": {
       "*": {
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": true
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "dropdown"
+          }
+        ],
+        ""
         "header": [
           {
             "show": true,
