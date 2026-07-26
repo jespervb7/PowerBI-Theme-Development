@@ -484,6 +484,176 @@
         ]
       }
     },
+    "cardVisual": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "fillCustom": [
+          {
+            "$id": "default",
+            "fillColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "accentBar": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            },
+            "position": "Left"
+          }
+        ],
+        "value": [
+          {
+            "$id": "default",
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            },
+            "fontFamily": "Arial",
+            "fontSize": 24,
+            "textWrap": false,
+            "transparency": 0
+          }
+        ],
+        "label": [
+          {
+            "$id": "default",
+            "show": true,
+            "position": "aboveValue",
+            "heading": "Normal",
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontFamily": "Arial",
+            "fontSize": 24,
+            "textWrap": true,
+            "transparency": 0
+          }
+        ],
+        "divider": [
+          {
+            "$id": "default",
+            "show": true,
+            "dividerColor": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            },
+            "dividerLineStyle": "solid",
+            "dividerWidth": 3,
+            "dividerTransparency": 30,
+            "dividerIgnorePadding": false
+          }
+        ],
+        "referenceLabelTitle": [
+          {
+            "$id": "default",
+            "show": true,
+            "titleContentType": "fieldName",
+            "titleFontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "titleFontFamily": "Arial",
+            "titleFontSize": 11,
+            "titleBold": false,
+            "titleItalic": false,
+            "titleUnderline": false,
+            "titleTransparency": 40,
+            "textWrap": true
+          }
+        ],
+        "referenceLabelValue": [
+          {
+            "$id": "default",
+            "show": true,
+            "valueBold": true,
+            "valueFontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "valueFontFamily": "Arial",
+            "valueFontSize": 11,
+            "valuePrecision": 1
+          }
+        ],
+        "referenceLabel": [
+          {
+            "backgroundShow": false,
+            "paddingUniform": 8,
+            "paddingIndividual": false,
+            "rectangleRoundedCurve": 6
+          }
+        ],
+        "referenceLabelLayout": [
+          {
+            "arrangement": "rows",
+            "position": "below",
+            "style": "sentence",
+            "labelSpace": 4,
+            "outerPadding": 8,
+            "customizePadding": false
+          }
+        ],
+        "layout": [
+          {
+            "$id": "default",
+            "style": "Cards",
+            "calloutSize": 65,
+            "customizePadding": true,
+            "paddingIndividual": false,
+            "paddingUniform": 16,
+            "cellPadding": 12,
+            "autoGrid": true
+          }
+        ],
+        "padding": [
+          {
+            "$id": "default",
+            "paddingSelection": "Custom",
+            "paddingUniform": 16,
+            "paddingIndividual": false
+          }
+        ],
+        "spacing": [
+          {
+            "verticalSpacing": 6
+          }
+        ]
+      }
+    },
     "slicer": {
       "*": {
         "selection": [
@@ -572,6 +742,20 @@
           }
         ]
       }
+    },
+    "pageNavigator": {
+      "*": {
+        "pages": [
+          {
+            "showHiddenPages": false,
+            "showTooltipPages": false,
+            "showPage": false
+          }
+        ]
+      }
+    },
+    "bookmarkNavigator": {
+      "*": {}
     }
   }
 }
