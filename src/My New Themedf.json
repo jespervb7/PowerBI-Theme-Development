@@ -1,11 +1,11 @@
 {
-  "name": "My New Themedf",
+  "name": "My New Themeg",
   "visualStyles": {
-    "cardVisual": {
+    "pageNavigator": {
       "*": {
-        "background": [
+        "shape": [
           {
-            "show": false
+            "tileShape": "rectangleRounded"
           }
         ]
       }

@@ -751,11 +751,67 @@
             "showTooltipPages": false,
             "showPage": false
           }
+        ],
+        "shape": [
+          {
+            "tileShape": "arrowPentagon"
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
         ]
       }
     },
     "bookmarkNavigator": {
-      "*": {}
+      "*": {
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "visualGroup": {
+      "*": {
+        "background": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": "#F6F3F1"
+              }
+            },
+            "transparency": 100
+          }
+        ]
+      }
     }
   }
 }
