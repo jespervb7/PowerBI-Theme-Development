@@ -1,0 +1,114 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="1200" height="630" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-size="32" font-weight="700" fill="#242424">One theme. Every report. Consistent by default.</text>
+  <text x="600" y="80" text-anchor="middle" font-size="15" fill="#616161">Power BI theme files turn one-off styling into a repeatable system</text>
+
+  <!-- Left panel: without a theme -->
+  <rect x="40" y="108" width="520" height="360" rx="16" fill="#F5F5F5" stroke="#E6E6E6" stroke-width="1.5"/>
+  <text x="300" y="140" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#D64550">WITHOUT A THEME</text>
+
+  <!-- messy KPI cards -->
+  <g>
+    <rect x="60" y="158" width="140" height="58" rx="4" fill="#E044A7"/>
+    <rect x="78" y="172" width="46" height="8" rx="4" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="78" y="188" width="80" height="14" rx="3" fill="#FFFFFF"/>
+
+    <rect x="220" y="152" width="140" height="58" rx="14" fill="#D9B300" transform="rotate(-3 290 181)"/>
+    <rect x="238" y="166" width="46" height="8" rx="4" fill="#FFFFFF" opacity="0.85" transform="rotate(-3 290 181)"/>
+    <rect x="238" y="182" width="80" height="14" rx="3" fill="#FFFFFF" transform="rotate(-3 290 181)"/>
+
+    <rect x="380" y="162" width="140" height="58" rx="2" fill="#00B0B9"/>
+    <rect x="398" y="176" width="46" height="8" rx="4" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="398" y="192" width="80" height="14" rx="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- messy bar chart -->
+  <g>
+    <line x1="60" y1="350" x2="520" y2="350" stroke="#C7C7C7" stroke-width="1"/>
+    <rect x="60"  y="290" width="38" height="60" fill="#E66C37"/>
+    <rect x="112" y="230" width="34" height="120" fill="#744EC2"/>
+    <rect x="160" y="300" width="42" height="50" fill="#1AAB40"/>
+    <rect x="216" y="245" width="30" height="95"  fill="#F472D0"/>
+    <rect x="260" y="210" width="46" height="140" fill="#0091D5" transform="rotate(2 283 280)"/>
+    <rect x="320" y="270" width="36" height="70"  fill="#D64550"/>
+    <rect x="370" y="255" width="40" height="105" fill="#99700A"/>
+    <rect x="424" y="295" width="32" height="45"  fill="#B5A1FF"/>
+    <rect x="470" y="220" width="38" height="130" fill="#FF6300"/>
+  </g>
+
+  <!-- messy list rows -->
+  <g>
+    <rect x="60"  y="378" width="150" height="10" rx="5" fill="#242424"/>
+    <rect x="230" y="378" width="70"  height="10" rx="5" fill="#E044A7"/>
+    <rect x="60"  y="402" width="90"  height="10" rx="5" fill="#616161"/>
+    <rect x="170" y="402" width="140" height="10" rx="5" fill="#0091D5"/>
+    <rect x="60"  y="428" width="180" height="10" rx="5" fill="#D9B300"/>
+    <rect x="260" y="428" width="60"  height="10" rx="5" fill="#242424"/>
+  </g>
+
+  <!-- Right panel: with a theme -->
+  <rect x="640" y="108" width="520" height="360" rx="16" fill="#F5F5F5" stroke="#118DFF" stroke-width="2"/>
+  <text x="900" y="140" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#118DFF">WITH A THEME</text>
+
+  <!-- consistent KPI cards -->
+  <g>
+    <rect x="660" y="158" width="140" height="58" rx="10" fill="#118DFF"/>
+    <rect x="678" y="172" width="46" height="8" rx="4" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="678" y="188" width="80" height="14" rx="3" fill="#FFFFFF"/>
+
+    <rect x="820" y="158" width="140" height="58" rx="10" fill="#0A5599"/>
+    <rect x="838" y="172" width="46" height="8" rx="4" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="838" y="188" width="80" height="14" rx="3" fill="#FFFFFF"/>
+
+    <rect x="980" y="158" width="140" height="58" rx="10" fill="#12239E"/>
+    <rect x="998" y="172" width="46" height="8" rx="4" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="998" y="188" width="80" height="14" rx="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- consistent bar chart -->
+  <g>
+    <line x1="660" y1="350" x2="1120" y2="350" stroke="#C7C7C7" stroke-width="1"/>
+    <rect x="660" y="290" width="38" height="60"  fill="#118DFF"/>
+    <rect x="712" y="230" width="38" height="120" fill="#4092FF"/>
+    <rect x="764" y="300" width="38" height="50"  fill="#0A5599"/>
+    <rect x="816" y="245" width="38" height="105" fill="#118DFF"/>
+    <rect x="868" y="210" width="38" height="140" fill="#4092FF"/>
+    <rect x="920" y="270" width="38" height="80"  fill="#0A5599"/>
+    <rect x="972" y="255" width="38" height="95"  fill="#118DFF"/>
+    <rect x="1024" y="295" width="38" height="55" fill="#4092FF"/>
+    <rect x="1076" y="220" width="38" height="130" fill="#0A5599"/>
+  </g>
+
+  <!-- consistent list rows -->
+  <g>
+    <rect x="660" y="378" width="150" height="10" rx="5" fill="#242424"/>
+    <rect x="820" y="378" width="70"  height="10" rx="5" fill="#118DFF"/>
+    <rect x="660" y="402" width="90"  height="10" rx="5" fill="#616161"/>
+    <rect x="760" y="402" width="140" height="10" rx="5" fill="#118DFF"/>
+    <rect x="660" y="428" width="180" height="10" rx="5" fill="#616161"/>
+    <rect x="850" y="428" width="60"  height="10" rx="5" fill="#118DFF"/>
+  </g>
+
+  <!-- center arrow -->
+  <circle cx="600" cy="288" r="34" fill="#118DFF"/>
+  <path d="M588 274 L612 288 L588 302 Z" fill="#FFFFFF"/>
+
+  <!-- stat chips -->
+  <g>
+    <rect x="40"  y="494" width="340" height="72" rx="36" fill="#FFFFFF" stroke="#118DFF" stroke-width="1.5"/>
+    <text x="210" y="528" text-anchor="middle" font-size="22" font-weight="700" fill="#242424">Hours &#8594; Minutes</text>
+    <text x="210" y="550" text-anchor="middle" font-size="12" fill="#616161">to style a report, illustrative example</text>
+
+    <rect x="430" y="494" width="340" height="72" rx="36" fill="#FFFFFF" stroke="#118DFF" stroke-width="1.5"/>
+    <text x="600" y="528" text-anchor="middle" font-size="22" font-weight="700" fill="#242424">1 Theme File</text>
+    <text x="600" y="550" text-anchor="middle" font-size="12" fill="#616161">reused across every report</text>
+
+    <rect x="820" y="494" width="340" height="72" rx="36" fill="#FFFFFF" stroke="#118DFF" stroke-width="1.5"/>
+    <text x="990" y="528" text-anchor="middle" font-size="22" font-weight="700" fill="#1AAB40">100% On-Brand</text>
+    <text x="990" y="550" text-anchor="middle" font-size="12" fill="#616161">same colors and fonts, every time</text>
+  </g>
+
+  <text x="1160" y="600" text-anchor="end" font-size="11" font-style="italic" fill="#9E9E9E">Illustrative example, not measured data</text>
+</svg>
