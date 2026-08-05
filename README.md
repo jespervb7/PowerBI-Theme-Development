@@ -44,3 +44,5 @@ For deeper design notes and before/after comparisons, see the
 
 No license has been set for this repository yet — until one is added here,
 please check with the repo owner before reusing these theme files.
+
+<video src="docs/assets/Table%20Transition.mp4" autoplay loop muted></video>
