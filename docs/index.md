@@ -8,6 +8,8 @@ This project explores how to build clear, consistent, professional Power BI them
 - guidance for building and refining report styling
 - practical notes on consistency, accessibility, and design quality
 
+<video src="assets/Table%20Transition.mp4" autoplay loop muted></video>
+
 ## Why should I care?
 
 Stop rebuilding the same visual polish on every report. A reusable Power BI theme turns hours of manual styling into minutes — one setup, applied everywhere.
@@ -22,3 +24,4 @@ The more reports you build, the bigger the payoff. One theme, reused across a po
 ![Before example](assets/Table - old.png)
 
 ![After example](assets/Table - new.png)
+

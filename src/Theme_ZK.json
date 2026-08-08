@@ -56,13 +56,13 @@
       "color": "#002857"
     },
     "title": {
-      "fontFace": "'Arial Black'",
+      "fontFace": "'Arial'",
       "fontSize": 12,
       "color": "#002857"
     },
     "header": {
       "fontFace": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "color": "#002857"
     },
     "label": {
@@ -219,7 +219,7 @@
           },
           {
             "$id": "Applied",
-            "fontFamily": "'Arial Black'",
+            "fontFamily": "'Arial'",
             "foregroundColor": {
               "solid": {
                 "color": "#00345f"
@@ -656,6 +656,14 @@
     },
     "slicer": {
       "*": {
+        "stylePreset": [
+          {
+            "name": "pbi_stylePreset_01"
+          },
+          {
+            "name": "pbi_stylePreset_02"
+          }
+        ],
         "selection": [
           {
             "selectAllCheckboxEnabled": true,
@@ -691,6 +699,56 @@
             "fontSize": 10
           }
         ]
+      },
+      "pbi_stylePreset_01": {
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": true
+          }
+        ],
+        "data": [
+          {
+            "mode": "Dropdown"
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontFamily": "Arial",
+            "fontSize": 11,
+            "bold": true
+          }
+        ],
+        "items": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontFamily": "Arial",
+            "fontSize": 20
+          }
+        ]
+      },
+      "pbi_stylePreset_02": {
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": true
+          }
+        ],
+        "data": [
+          {
+            "mode": "HorizontalList"
+          }
+        ]
       }
     },
     "shape": {
@@ -719,15 +777,43 @@
     },
     "actionButton": {
       "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
         "fill": [
           {
             "show": true,
             "fillColor": {
               "solid": {
-                "color": "#0068BD"
+                "color": "#000000"
               }
             },
             "transparency": 0
+          }
+        ],
+        "padding": [
+          {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           }
         ],
         "text": [
@@ -739,6 +825,68 @@
             },
             "fontFamily": "Arial",
             "bold": true
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "roundEdge": 4
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "general": [
+          {
+            "keepLayerOrder": true
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "subTitle": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        ]
+      }
+    },
+    "group": {
+      "*": {
+        "background": [
+          {
+            "show": false
           }
         ]
       }
