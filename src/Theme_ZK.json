@@ -931,7 +931,7 @@
           {
             "show": false
           }
-        ],
+        ],"outline": [{"show": false}],
         "padding": [
           {
             "left": 20,
@@ -998,6 +998,95 @@
         "layout": [
           {
             "orientation": 0
+          }
+        ]
+      },
+      "Big horizontal navigator": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            },
+            "radius": 15
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "left": 20,
+            "top": 20,
+            "right": 10,
+            "bottom": 10
+          }
+        ],
+        "layout": [
+          {
+            "orientation": 0,
+            "cellPadding": 10
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "tileShape": "rectangle",
+            "roundEdge": 15
+          }
+        ],
+        "fill": [
+          {
+            "$id": "default",
+            "fillColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "fillColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "text": [
+          {
+            "$id": "default",
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontFamily": "Arial",
+            "bold": true,
+            "fontSize": 20
+          },
+          {
+            "$id": "hover",
+            "fontSize": 28
           }
         ]
       }
