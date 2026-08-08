@@ -44,6 +44,7 @@
   "null": "#EDF2F7",
   "background": "#F6F3F1",
   "secondaryBackground": "#DCEBF3",
+  "hyperlink": "#0068BD",
   "tableAccent": "#0068BD",
   "firstLevelElements": "#002857",
   "secondLevelElements": "#6B839A",
@@ -56,7 +57,7 @@
       "color": "#002857"
     },
     "title": {
-      "fontFace": "'Arial'",
+      "fontFace": "'Montserrat','Arial'",
       "fontSize": 12,
       "color": "#002857"
     },
@@ -900,14 +901,14 @@
             "showPage": false
           }
         ],
-        "shape": [
-          {
-            "tileShape": "arrowPentagon"
-          }
-        ],
         "background": [
           {
-            "show": false
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
           }
         ],
         "dropShadow": [
@@ -917,12 +918,86 @@
         ],
         "border": [
           {
-            "show": false
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            },
+            "radius": 15
           }
         ],
         "title": [
           {
             "show": false
+          }
+        ],
+        "padding": [
+          {
+            "left": 20,
+            "top": 20,
+            "right": 10,
+            "bottom": 10
+          }
+        ],
+        "layout": [
+          {
+            "orientation": 1,
+            "cellPadding": 10
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "tileShape": "rectangle",
+            "roundEdge": 15
+          }
+        ],
+        "fill": [
+          {
+            "$id": "default",
+            "fillColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "fillColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "text": [
+          {
+            "$id": "default",
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontFamily": "Arial",
+            "bold": true,
+            "fontSize": 20
+          },
+          {
+            "$id": "hover",
+            "fontSize": 28
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "Default - Horizontal"
+          }
+        ]
+      },
+      "Default - Horizontal": {
+        "layout": [
+          {
+            "orientation": 0
           }
         ]
       }
