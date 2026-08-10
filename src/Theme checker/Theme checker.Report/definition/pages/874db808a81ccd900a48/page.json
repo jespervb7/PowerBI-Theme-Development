@@ -4,5 +4,17 @@
   "displayName": "Slicers",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "f06d485164718d44700a",
+      "target": "f83a107aed3c43a210a8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "f83a107aed3c43a210a8",
+      "target": "f06d485164718d44700a",
+      "type": "NoFilter"
+    }
+  ]
 }

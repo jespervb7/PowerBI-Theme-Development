@@ -1,23 +1,23 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
   "themeCollection": {
     "baseTheme": {
-      "name": "CY25SU11",
+      "name": "Fluent2-CY26SU07",
       "reportVersionAtImport": {
-        "visual": "2.4.0",
-        "report": "3.0.0",
-        "page": "2.3.0"
+        "visual": "2.11.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
       },
       "type": "SharedResources"
     },
     "customTheme": {
-      "name": "AccessibleDefault",
+      "name": "Theme_ZK4894942835228997.json",
       "reportVersionAtImport": {
-        "visual": "2.4.0",
-        "report": "3.0.0",
-        "page": "2.3.0"
+        "visual": "2.11.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
       },
-      "type": "SharedResources"
+      "type": "RegisteredResources"
     }
   },
   "objects": {
@@ -54,13 +54,19 @@
       "type": "SharedResources",
       "items": [
         {
-          "name": "CY25SU11",
-          "path": "BaseThemes/CY25SU11.json",
+          "name": "Fluent2-CY26SU07",
+          "path": "BaseThemes/Fluent2-CY26SU07.json",
           "type": "BaseTheme"
-        },
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
         {
-          "name": "AccessibleDefault",
-          "path": "BuiltInThemes/AccessibleDefault.json",
+          "name": "Theme_ZK4894942835228997.json",
+          "path": "Theme_ZK4894942835228997.json",
           "type": "CustomTheme"
         }
       ]

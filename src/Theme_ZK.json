@@ -70,6 +70,56 @@
       "fontFace": "Arial",
       "fontSize": 10,
       "color": "#002857"
+    },
+    "boldLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "dataTitle": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "largeLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "largeLightLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "largeTitle": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "lightLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "semiboldLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "smallDataLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "smallLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
+    },
+    "smallLightLabel": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#002857"
     }
   },
   "visualStyles": {
@@ -836,6 +886,181 @@
         ]
       }
     },
+    "listSlicer": {
+      "*": {
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "advancedSlicerVisual": {
+      "*": {
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "Small button slicer"
+          }
+        ]
+      },
+      "Small button slicer": {
+        "selection": [
+          {
+            "strictSingleSelect": true,
+            "singleSelect": true
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "radius": 30,
+            "width": 2,
+            "color": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
+          }
+        ],
+        "outline": [
+          {
+            "show": false
+          }
+        ],
+        "layout": [
+          {
+            "orientation": 2,
+            "maxTiles": 12,
+            "cellPadding": 0,
+            "style": "Cards"
+          }
+        ],
+        "value": [
+          {
+            "$id": "default",
+            "fontFamily": "Arial",
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontSize": 10,
+            "bold": true
+          },
+          {
+            "$id": "selection:selected",
+            "fontFamily": "Arial",
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontSize": 10,
+            "bold": true
+          },
+          {
+            "$id": "interaction:hover",
+            "fontFamily": "Arial",
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontSize": 10,
+            "bold": true,
+            "underline": true
+          }
+        ],
+        "fillCustom": [
+          {
+            "$id": "selection:selected",
+            "fillColor": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
+          },
+          {
+            "$id": "interaction:hover",
+            "fillColor": {
+              "solid": {
+                "color": "#FFECE4"
+              }
+            }
+          },
+          {
+            "$id": "interaction:press",
+            "fillColor": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
+          }
+        ],
+        "accentBar": [
+          {
+            "$id": "default",
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
+          }
+        ]
+      }
+    },
     "textbox": {
       "*": {
         "background": [
@@ -931,7 +1156,12 @@
           {
             "show": false
           }
-        ],"outline": [{"show": false}],
+        ],
+        "outline": [
+          {
+            "show": false
+          }
+        ],
         "padding": [
           {
             "left": 20,
