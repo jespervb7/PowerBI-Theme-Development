@@ -938,6 +938,9 @@
         "stylePreset": [
           {
             "name": "Small button slicer"
+          },
+          {
+            "name": "Modern Underline Tabs"
           }
         ]
       },
@@ -1057,6 +1060,129 @@
                 "color": "#FECFBB"
               }
             }
+          }
+        ]
+      },
+      "Modern Underline Tabs": {
+        "selection": [
+          {
+            "strictSingleSelect": true,
+            "singleSelect": true
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        ],
+        "layout": [
+          {
+            "orientation": 2,
+            "maxTiles": 12,
+            "cellPadding": 0,
+            "style": "Cards"
+          }
+        ],
+        "value": [
+          {
+            "$id": "default",
+            "fontFamily": "Arial",
+            "fontColor": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            },
+            "fontSize": 10,
+            "bold": false
+          },
+          {
+            "$id": "selection:selected",
+            "fontFamily": "Arial",
+            "fontColor": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            },
+            "fontSize": 10,
+            "bold": true
+          }
+        ],
+        "fillCustom": [
+          {
+            "$id": "selection:selected",
+            "show": false
+          },
+          {
+            "$id": "default",
+            "show": false
+          },
+          {
+            "$id": "interaction:hover",
+            "show": false
+          },
+          {
+            "$id": "interaction:press",
+            "show": false
+          }
+        ],
+        "accentBar": [
+          {
+            "$id": "default",
+            "show": true,
+            "width": 3,
+            "position": "Bottom",
+            "color": {
+              "solid": {
+                "color": "#DCEBF3"
+              }
+            }
+          },
+          {
+            "$id": "interaction:hover",
+            "show": true,
+            "width": 3,
+            "position": "Bottom",
+            "color": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            }
+          },
+          {
+            "$id": "interaction:press",
+            "show": true,
+            "width": 3,
+            "position": "Bottom",
+            "color": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            }
+          },
+          {
+            "$id": "selection:selected",
+            "show": true,
+            "width": 3,
+            "position": "Bottom",
+            "color": {
+              "solid": {
+                "color": "#0068BD"
+              }
+            }
+          }
+        ],
+        "outline": [
+          {
+            "$id": "default",
+            "show": false
           }
         ]
       }
