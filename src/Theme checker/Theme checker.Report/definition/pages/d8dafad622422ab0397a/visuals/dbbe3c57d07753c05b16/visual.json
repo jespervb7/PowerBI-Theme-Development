@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
-  "name": "becf65979ece9d557c81",
+  "name": "dbbe3c57d07753c05b16",
   "position": {
-    "x": 380.405616224649,
-    "y": 831.70046801872081,
-    "z": 7000,
+    "x": 379.20826161790018,
+    "y": 781.65232358003436,
+    "z": 7,
     "height": 40,
     "width": 400,
-    "tabOrder": 7000
+    "tabOrder": 7
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -67,7 +67,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'North America'"
+                                "Value": "'Europe'"
                               }
                             }
                           ]
@@ -165,7 +165,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#0068BD'"
+                      "Value": "'#002857'"
                     }
                   }
                 }
@@ -260,7 +260,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#0068BD'"
+                      "Value": "'#002857'"
                     }
                   }
                 }
@@ -322,5 +322,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "13ae3255228956c08a8b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Customer"
+              }
+            },
+            "Property": "Continent"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
   }
 }

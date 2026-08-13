@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
-  "name": "f83a107aed3c43a210a8",
+  "name": "e99c0fd03b49674d01d5",
   "position": {
     "x": 379.02946273830162,
     "y": 887.209705372617,
-    "z": 5000,
+    "z": 0,
     "height": 40,
     "width": 400,
-    "tabOrder": 5000
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -929,5 +929,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "404f60013610725ce815",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Customer"
+              }
+            },
+            "Property": "Continent"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
   }
 }
