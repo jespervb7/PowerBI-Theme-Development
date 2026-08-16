@@ -5,7 +5,7 @@
     "#0068BD",
     "#FECFBB",
     "#1E8C45",
-    "#7C5BD9",,
+    "#7C5BD9",
     "#002857",
     "#6B839A",
     "#004E8C",
@@ -50,6 +50,7 @@
   "secondLevelElements": "#6B839A",
   "thirdLevelElements": "#D0DDE8",
   "fourthLevelElements": "#A0B8CC",
+  "fitfhlevelel": "#A0B8CC",
   "textClasses": {
     "callout": {
       "fontFace": "Arial",
