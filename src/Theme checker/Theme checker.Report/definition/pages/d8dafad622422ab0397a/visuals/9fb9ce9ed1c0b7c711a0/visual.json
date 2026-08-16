@@ -1,0 +1,195 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "9fb9ce9ed1c0b7c711a0",
+  "position": {
+    "x": 149.63855421686748,
+    "y": 567.88296041308092,
+    "z": 6,
+    "height": 200,
+    "width": 800,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Criminals are sending fake emails on behalf of Zilveren Kruis",
+                    "textStyle": {
+                      "fontFamily": "PT Sans, serif",
+                      "fontSize": "16px",
+                      "color": "#002857"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Some customers receive emails with titles like 'Health insurance premium 2027: share your opinion and receive a free gift package'. Check ",
+                    "textStyle": {
+                      "fontFamily": "PT Sans, serif",
+                      "fontSize": "16px",
+                      "color": "#002857"
+                    }
+                  },
+                  {
+                    "value": "Fraudehelpdesk.nl",
+                    "textStyle": {
+                      "fontFamily": "PT Sans, serif",
+                      "fontSize": "16px",
+                      "textDecoration": "underline",
+                      "color": "#0068bd"
+                    },
+                    "url": "https://www.fraudehelpdesk.nl/valse-emails/zilveren-kruis/"
+                  },
+                  {
+                    "value": " to see which fake messages are circulating.",
+                    "textStyle": {
+                      "fontFamily": "PT Sans, serif",
+                      "fontSize": "16px",
+                      "color": "#002857"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "We never ask you to provide personal or financial information by email of WhatsApp. ",
+                    "textStyle": {
+                      "fontFamily": "PT Sans, serif",
+                      "fontSize": "16px",
+                      "color": "#002857"
+                    }
+                  },
+                  {
+                    "value": "Always check the sender and the account number. Only pay us at NL 58 INGB 0000 0030 50",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "PT Sans, serif",
+                      "fontSize": "16px",
+                      "color": "#002857"
+                    }
+                  },
+                  {
+                    "value": ". More information is available in Dutch only.",
+                    "textStyle": {
+                      "fontFamily": "PT Sans, serif",
+                      "fontSize": "16px",
+                      "color": "#002857"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F6F3F1'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "5D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F6F3F1'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

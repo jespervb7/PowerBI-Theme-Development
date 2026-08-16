@@ -67,23 +67,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "a6f6c91d9219d778785d",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Sales"
-              }
-            },
-            "Property": "Sales Amount"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

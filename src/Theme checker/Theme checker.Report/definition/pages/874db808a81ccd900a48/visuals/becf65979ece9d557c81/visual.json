@@ -4,10 +4,10 @@
   "position": {
     "x": 380.405616224649,
     "y": 831.70046801872081,
-    "z": 8,
+    "z": 7000,
     "height": 40,
     "width": 400,
-    "tabOrder": 8
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -322,23 +322,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "75d98af1c815b0d48e6e",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Customer"
-              }
-            },
-            "Property": "Continent"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

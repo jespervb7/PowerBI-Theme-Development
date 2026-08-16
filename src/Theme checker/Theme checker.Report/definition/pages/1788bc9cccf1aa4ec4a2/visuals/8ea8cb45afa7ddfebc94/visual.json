@@ -104,51 +104,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "42b64c90c2d9896a7405",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Customer"
-              }
-            },
-            "Property": "Country"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "17b316c35e88becab38a",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Customer"
-              }
-            },
-            "Property": "Gender"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "a2ad919dc8c9d179a331",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Sales"
-              }
-            },
-            "Property": "Sales Amount"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }
