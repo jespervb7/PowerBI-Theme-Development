@@ -5,6 +5,13 @@
 # samples's main branch (anything else is rejected without being fetched,
 # so a PR can't make CI curl an arbitrary attacker-controlled URL).
 #
+# Both raw.githubusercontent.com URL forms for a branch are accepted:
+#   .../main/Report%20Theme%20JSON%20Schema/...              (shorthand)
+#   .../refs/heads/main/Report%20Theme%20JSON%20Schema/...   (explicit ref,
+#     what GitHub's own "Copy raw file" button now generates)
+# Both resolve to identical content; verified directly against the schema
+# repo before allowing the second form.
+#
 # jq already has to parse each file to pull "$schema" out of it, so this
 # also doubles as the JSON-syntax check -- a separate full pass over every
 # file with a different tool first would just be reading each file twice
@@ -13,7 +20,7 @@
 # Writes theme_schema_map.txt: tab-separated <file> <version> <schema_url>
 set -euo pipefail
 
-SCHEMA_URL_PATTERN='^https://raw\.githubusercontent\.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-[0-9]+\.[0-9]+\.json$'
+SCHEMA_URL_PATTERN='^https://raw\.githubusercontent\.com/microsoft/powerbi-desktop-samples/(refs/heads/)?main/Report%20Theme%20JSON%20Schema/reportThemeSchema-[0-9]+\.[0-9]+\.json$'
 
 : > theme_schema_map.txt
 
