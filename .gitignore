@@ -432,3 +432,8 @@ FodyWeavers.xsd
 
 **/.pbi/localSettings.json
 **/.pbi/cache.abf
+
+# Theme validation workflow artifacts
+/schemas/
+/theme_files.txt
+/theme_schema_map.txt
