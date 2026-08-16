@@ -1,0 +1,103 @@
+name: Validate Power BI theme files
+
+# Validates every theme JSON file in themes/*.json the same way VS Code's
+# IntelliSense does: natively, off each file's own top-level "$schema" key
+# (see developer-setup-guide.md, Option A), rather than always pulling
+# whatever Microsoft currently calls newest. This means a file is checked
+# against the exact schema version its author pinned, and CI outcomes
+# match what a contributor sees as squiggles in their editor.
+#
+# Requirements enforced by this workflow:
+#   - Every theme file MUST have a "$schema" key. Files without one fail
+#     the build (see developer-setup-guide.md to add one).
+#   - That "$schema" value MUST point at a reportThemeSchema-<version>.json
+#     file under microsoft/powerbi-desktop-samples's main branch. Anything
+#     else is rejected without being fetched, so a PR can't make CI curl
+#     an arbitrary attacker-controlled URL.
+#
+# Because per-file pins don't update themselves, this workflow separately
+# resolves whatever schema version is actually newest upstream and posts a
+# non-blocking ::notice:: for any file that has fallen behind it -- so
+# staleness is visible without turning it into a hard failure. The weekly
+# schedule trigger exists specifically to surface that kind of drift even
+# when nobody has touched the theme files.
+#
+# All the actual logic lives in .github/scripts/*.sh -- this file is just
+# the pipeline order plus what each step is for:
+#   1. find-theme-files.sh        -- fail fast if the glob matches nothing
+#   2. resolve-schema.sh          -- also catches invalid JSON and disallowed URLs
+#   3. resolve-latest-schema.sh   -- independent of validation outcome, feeds the
+#                                     staleness notice and the summary either way
+#   4. download-schemas.sh        -- fetches the schema version(s) referenced
+#   5. validate-themes.sh         -- the actual pass/fail check
+#   6. check-stale-schemas.sh     -- flags any file whose pin has gone stale (non-blocking)
+#   7. write-summary.sh           -- always runs, even on failure
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "themes/*.json"
+      - ".github/workflows/validate-theme.yml"
+      - ".github/scripts/*.sh"
+  pull_request:
+    paths:
+      - "themes/*.json"
+      - ".github/workflows/validate-theme.yml"
+      - ".github/scripts/*.sh"
+  workflow_dispatch: {}
+  schedule:
+    # Mondays 06:00 UTC. Catches per-file $schema pins that have fallen
+    # behind the newest upstream schema, independent of any push.
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-theme:
+    name: Validate theme JSON against each file's own $schema
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install ajv-cli
+        # Pinned to the ajv 6 line, which validates against JSON Schema
+        # Draft-07 by default -- matching the draft the schema repo's own
+        # README states it conforms to. Newer ajv-cli majors default to a
+        # different draft and need extra flags to match.
+        run: npm install --global ajv-cli@3.3.0
+
+      - name: Find theme files
+        run: bash .github/scripts/find-theme-files.sh
+
+      - name: Resolve each file's own $schema
+        run: bash .github/scripts/resolve-schema.sh
+
+      - name: Resolve latest Power BI report theme schema version
+        id: schema
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/resolve-latest-schema.sh
+
+      - name: Download referenced schema versions
+        run: bash .github/scripts/download-schemas.sh
+
+      - name: Validate each file against its own $schema
+        run: bash .github/scripts/validate-themes.sh
+
+      - name: Check for stale $schema references (non-blocking)
+        # Runs even if the validation step above failed -- staleness is
+        # useful context on a failing run too, not just a passing one.
+        if: always() && steps.schema.outputs.version != ''
+        run: bash .github/scripts/check-stale-schemas.sh "${{ steps.schema.outputs.version }}"
+
+      - name: Summary
+        if: always()
+        run: bash .github/scripts/write-summary.sh "${{ steps.schema.outputs.version }}"

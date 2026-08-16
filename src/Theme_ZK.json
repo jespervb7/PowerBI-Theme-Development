@@ -849,10 +849,53 @@
         ],
         "stylePreset": [
           {
-            "name": ""
+            "name": "Pink action/text pill"
+          },
+          {
+            "name": "Blue action/text pill"
           }
         ]
-      }
+      },
+      "Pink action/text pill": {
+        "shape": [
+          {
+            "tileShape": "pill"
+          }
+        ],
+        "fill": [
+          {
+            "show": true,
+            "fillColor": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
+          }
+        ],
+        "outline": [
+          {
+            "show": true,
+            "outlineColor": {
+              "solid": {
+                "color": "#FECFBB"
+              }
+            }
+          }
+        ],
+        "text": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#002857"
+              }
+            },
+            "fontFamily": "Arial",
+            "bold": true,
+            "text": "Concept tekst"
+          }
+        ]
+      },
+      "Blue action/text pill": {}
     },
     "actionButton": {
       "*": {
