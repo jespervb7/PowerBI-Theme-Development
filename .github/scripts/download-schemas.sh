@@ -39,7 +39,9 @@ def walk(node):
         enum = node.get("enum")
         if isinstance(enum, list):
             node["enum"] = dedupe(enum)
-        for value in node.values():
+        for key, value in node.items():
+            if key == "enum":
+                continue
             walk(value)
     elif isinstance(node, list):
         for value in node:
