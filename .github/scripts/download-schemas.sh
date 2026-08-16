@@ -60,5 +60,7 @@ cut -f2,3 theme_schema_map.txt | sort -u | while IFS=$'\t' read -r version url; 
     echo "Downloading reportThemeSchema-${version}.json"
     curl -sfL "$url" -o "schemas/${version}.json"
   fi
+  # Keep this idempotent so an already-cached pre-fix schema file still gets
+  # repaired on a later local rerun.
   normalize_schema "schemas/${version}.json"
 done
