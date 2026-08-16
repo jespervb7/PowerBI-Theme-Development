@@ -1,11 +1,11 @@
 {
-  "name": "My New Themeg",
+  "name": "My New Thekme",
   "visualStyles": {
-    "pageNavigator": {
+    "shape": {
       "*": {
-        "shape": [
+        "lockAspect": [
           {
-            "tileShape": "rectangleRounded"
+            "show": true
           }
         ]
       }

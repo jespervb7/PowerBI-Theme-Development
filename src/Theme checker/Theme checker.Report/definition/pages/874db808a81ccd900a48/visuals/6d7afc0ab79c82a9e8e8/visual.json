@@ -4,10 +4,10 @@
   "position": {
     "x": 29.948006932409015,
     "y": 424.88734835355291,
-    "z": 3,
+    "z": 3000,
     "height": 251.75043327556327,
     "width": 1086.5511265164646,
-    "tabOrder": 3
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -394,7 +394,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "f74b6aabd48e00e99811",
+        "name": "1ad2581c6a933982eea1",
         "field": {
           "HierarchyLevel": {
             "Expression": {
