@@ -1278,12 +1278,18 @@
             "show": false
           }
         ],
+        "overFlow": [
+          {
+            "overFlowStyle": 1
+          }
+        ],
         "layout": [
           {
             "orientation": 2,
             "maxTiles": 12,
             "cellPadding": 0,
             "style": "Cards",
+            "showFixedSize": false,
             "backgroundFillColor": {
               "solid": {
                 "color": "#FECFBB"
