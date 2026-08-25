@@ -1125,7 +1125,7 @@
         ],
         "overFlow": [
           {
-            "overFlowStyle": 0
+            "overFlowStyle": 1
           }
         ],
         "fillCustom": [
@@ -1172,7 +1172,8 @@
               }
             },
             "fontSize": 10,
-            "bold": true
+            "bold": true,
+            "horizontalAlignment": "center"
           },
           {
             "$id": "selection:selected",
@@ -1503,135 +1504,6 @@
         ]
       },
       "Default": {
-        "fillCustom": [
-          {
-            "$id": "selection:selected",
-            "fillColor": {
-              "solid": {
-                "color": "#0068BD"
-              }
-            }
-          },
-          {
-            "$id": "interaction:hover",
-            "fillColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            }
-          },
-          {
-            "$id": "interaction:press",
-            "fillColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            }
-          },
-          {
-            "$id": "default",
-            "fillColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            }
-          }
-        ],
-        "value": [
-          {
-            "$id": "default",
-            "fontFamily": "Arial",
-            "fontColor": {
-              "solid": {
-                "color": "#002857"
-              }
-            },
-            "fontSize": 10,
-            "bold": true
-          },
-          {
-            "$id": "selection:selected",
-            "fontFamily": "Arial",
-            "fontColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            },
-            "fontSize": 10,
-            "bold": true
-          },
-          {
-            "$id": "interaction:hover",
-            "fontFamily": "Arial",
-            "fontColor": {
-              "solid": {
-                "color": "#002857"
-              }
-            },
-            "fontSize": 10,
-            "bold": true
-          }
-        ],
-        "outline": [
-          {
-            "$id": "default",
-            "show": true,
-            "weight": 1,
-            "lineColor": {
-              "solid": {
-                "color": "#0068BD"
-              }
-            }
-          },
-          {
-            "$id": "interaction:hover",
-            "show": true,
-            "weight": 2,
-            "lineColor": {
-              "solid": {
-                "color": "#002857"
-              }
-            }
-          },
-          {
-            "$id": "selection:selected",
-            "show": true,
-            "weight": 2,
-            "lineColor": {
-              "solid": {
-                "color": "#0068BD"
-              }
-            }
-          }
-        ],
-        "padding": [
-          {
-            "$id": "default",
-            "paddingSelection": "Custom",
-            "bottom": 0,
-            "left": 0,
-            "right": 0,
-            "top": 0,
-            "bottomMargin": 0,
-            "leftMargin": 0,
-            "rightMargin": 0,
-            "topMargin": 0
-          }
-        ],
-        "layout": [
-          {
-            "showFixedSize": true,
-            "rowPadding": 8,
-            "fixedHeight": 35,
-            "backgroundFillColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            },
-            "orientation": 1,
-            "style": "Cards"
-          }
-        ]
       }
     },
     "textbox": {
