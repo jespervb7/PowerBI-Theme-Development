@@ -46,3 +46,7 @@ No license has been set for this repository yet — until one is added here,
 please check with the repo owner before reusing these theme files.
 
 <video src="docs/assets/Table%20Transition.mp4" autoplay loop muted></video>
+
+# Developer guide
+
+When using stylepresets, make sure to align the default style presets with the * values. This is to ensure that when users reset to default they get the actual default stylepreset. This is currently a limitation to using theme files in Power BI
